@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animaciones</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/1a57bbbfe4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <menu>
+        <img src="./assets/img/logoT.jpg" alt="codigo" style="width: 100px" />
+        <div class="links">
+          <a href="#programas">Programs </a>
+          <a href="#jobs">Jobs </a>
+          <a href="#contacto">Contact</a>
+        </div>
+      </menu>
+
+      <nav>
+        <div class="logo">
+          <img src="./assets/img/logoT.jpg" alt="codigo" style="width: 100px" />
+          <h1>Testimonials</h1>
+        </div>
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </nav>
+
+      <main>
+        <div class="box1 boximg" id="jobs">
+          <img src="./assets/img/foto1.jpg" alt="foto1" />
+        </div>
+        <div class="box2">
+          <div class="nombre">
+            <img src="./assets/img/image-jonathan.jpg" alt="Jonathan" />
+            <div class="presentacion">
+              <h3>Jonathan Walters</h3>
+              <p>Verified Graduate</p>
+            </div>
+          </div>
+          <div class="texto">
+            <h2>The team was very supportive and kept me motivated</h2>
+            <p>
+              "I started as a total newbie with virtually no coding skills. I
+              now work as a mobile engineer for a big company. This was one of
+              the best investments I've made in myself."
+            </p>
+          </div>
+        </div>
+        <div class="box3">
+          <div class="nombre">
+            <img src="./assets/img/image-daniel.jpg" alt="Daniel" />
+            <div class="presentacion">
+              <h3>Daniel Clifford</h3>
+              <p>Verified Graduate</p>
+            </div>
+          </div>
+          <div class="texto">
+            <h2>
+              I received a job offer mid-course, and the subjects I learned were
+              current, if not more so, in the company l joined. I honestly feel
+              got every penny's worth.
+            </h2>
+            <p>
+              " I was an EMI for many years before I joined the bootcamp. I've
+              been looking to make a transition and have heard some people who
+              had an amazing experience here. I signed up for the free intro
+              course and found it incredibly fun! I enrolled shortly thereafter.
+              The next 12 weeks was the best- and most grueling - time of my
+              life. Since completing the course, I've successfully switched
+              careers, working as a Software Engineer at a VR startup."
+            </p>
+          </div>
+        </div>
+        <div class="box4 boximg">
+          <img
+            id="programas"
+            src="./assets/img/procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg"
+            alt="Code"
+          />
+        </div>
+        <div class="box5">
+          <div class="nombre">
+            <img src="./assets/img/image-patrick.jpg" alt="Patrick" />
+            <div class="presentacion">
+              <h3>Patrick Abrams</h3>
+              <p>Verified Graduate</p>
+            </div>
+          </div>
+          <div class="texto">
+            <h2>
+              Awesome teaching support from TAs who did the bootcamp themselves.
+              Getting guidance from them and learning from their experiences was
+              easy.
+            </h2>
+            <p>
+              "The staff seem genuinely concerned about my progress which I find
+              really refreshing. The program gave me the confidence necessary to
+              be able to go out in the world and present myself as a capable
+              junior developer. The standard is above the rest. You will get the
+              personal attention you need from an incredible community of smart
+              and amazing people."
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="contacto" id="contacto">
+          <h2>Contact Us</h2>
+          <div class="redes">
+            <a href=" https://www.linkedin.com/" target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2x"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-instagram fa-2x"></i
+            ></a>
+            <a href=" https://x.com/" target="_blank"
+              ><i class="fa-brands fa-twitter fa-2x"></i
+            ></a>
+          </div>
+        </div>
+        <div class="formulario">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="user_name" />
+
+          <label for="mail">Correo electrónico:</label>
+          <input type="email" id="mail" name="user_mail" />
+
+          <label for="msg">Mensaje:</label>
+          <textarea id="msg" name="user_message"></textarea>
+          <button>Enviar</button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
